@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import {DayCounter} from './DayCounter';
 
@@ -7,7 +6,7 @@ function App() {
     <div className="App">
       <h1>関鯖wiki</h1>
 
-      <DayCounter />
+      <h2>日数カウンタ：<DayCounter />日目</h2>
 
       <ul>
         <li><a href="http://sekisaba.mydns.jp:8123/">map</a></li>

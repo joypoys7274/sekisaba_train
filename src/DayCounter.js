@@ -13,7 +13,7 @@ export class DayCounter extends React.Component {
 
     render() {
         return (
-            <h2>日数カウンタ：{this.state.days}日目</h2>
+            this.state.days
         )
     }
 }
