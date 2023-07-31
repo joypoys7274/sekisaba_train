@@ -1,6 +1,7 @@
-import moment from "moment"
+import React from 'react';
+import moment from "moment";
 
-class DayCounter extends React.Component {
+export class DayCounter extends React.Component {
     constructor(props) {
         super(props);
         const dataFrom = moment("2023-08-01 00:00:00");

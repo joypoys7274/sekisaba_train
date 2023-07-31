@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import DayCounter from 'DayCounter';
+import {DayCounter} from './DayCounter';
 
 function App() {
   return (
